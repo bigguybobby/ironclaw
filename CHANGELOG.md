@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0](https://github.com/nearai/ironclaw/compare/v0.4.0...v0.5.0) - 2026-02-17
+
+### Added
+
+- add cooldown management to FailoverProvider ([#114](https://github.com/nearai/ironclaw/pull/114))
+
+### Fixed
+
+- check Content-Length before downloading HTTP response body ([#74](https://github.com/nearai/ironclaw/pull/74))
+
+### Other
+
+- add integrity check for marked CDN and cap highlight regex input ([#109](https://github.com/nearai/ironclaw/pull/109))
+- fallback to legacy nearai.session key when loading DB session ([#111](https://github.com/nearai/ironclaw/pull/111))
+
 ## [0.4.0](https://github.com/nearai/ironclaw/compare/v0.3.0...v0.4.0) - 2026-02-17
 
 ### Added
